@@ -17,3 +17,12 @@ pip install -e .
 ```
 
 # Build Docker image
+
+```sh
+docker build -t electricity-monitor:latest .
+```
+
+# Run the monitor using Docker
+```sh
+
+```
