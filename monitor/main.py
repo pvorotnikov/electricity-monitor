@@ -54,4 +54,5 @@ def help(ctx, tree):
 if __name__ == '__main__':
     electricity()
 else:
+    import monitor.disruptions  # NOQA
     init(autoreset=True)
