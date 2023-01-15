@@ -24,5 +24,5 @@ docker build -t electricity-monitor:latest .
 
 # Run the monitor using Docker
 ```sh
-
+docker run --rm -it electricity-monitor:latest electricity monitor <subscription-id>
 ```
